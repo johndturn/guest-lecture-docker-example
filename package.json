@@ -1,0 +1,20 @@
+{
+  "name": "containers-example",
+  "version": "1.0.0",
+  "description": "Used for a guest lecture on Docker and Containers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johndturn/guest-lecture-docker-example.git"
+  },
+  "author": "John Turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johndturn/guest-lecture-docker-example/issues"
+  },
+  "homepage": "https://github.com/johndturn/guest-lecture-docker-example#readme"
+}
