@@ -22,8 +22,9 @@ You can see the node application in the `index.js` file, which simply logs a sta
 
 We have 3 ways in this repo to run this node app, all outlined in `.sh` files for easy reference:
 
-- `build-and-run-from-dockerfile.sh`: Build a container from the image and code, and then run the application from the built image
-- `run-single-file.sh`: Run the application directly using Docker
+- `build-and-run-from-dockerfile.sh`: Build a container from the official Node image and launch into a Node repl without installing Node on your machine.
+  - Utilizes the `Dockerfile` from the repo
+- `run-single-file.sh`: Build and run a container directly from the Node image without a `Dockerfile`
 - `run-docker-compose.sh`: Run the application using Docker Compose 
 
 All other code in this repo are simply supporting files.
